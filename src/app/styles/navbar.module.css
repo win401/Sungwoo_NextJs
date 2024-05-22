@@ -1,0 +1,11 @@
+.NavWrap {
+  background: #52519c;
+  color: #fff;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+.menu li {
+  cursor: pointer;
+}

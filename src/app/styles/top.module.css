@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Six+Caps&display=swap");
+
+.main_container {
+  overflow: hidden;
+}
+
+.topMainWrap {
+  background: linear-gradient(#52519c 0%, #24243a 100%);
+  height: 100vh;
+  position: relative;
+}
+
+.mainilust {
+  border-radius: 50%;
+  width: 60%;
+  aspect-ratio: 1;
+  position: absolute;
+  left: -80px;
+  top: -200px;
+  background: linear-gradient(-15deg, #faff00 20%, #fe543b 40%, #f54a7d 50%, #6259a8 70%, #4d41ae 100%);
+  overflow: hidden;
+}
+
+.mainilust .island {
+  position: absolute;
+  bottom: -500px;
+  left: 80px;
+  width: 100%;
+}
+
+.mainilust .clouds img:nth-child(1) {
+  width: 167px;
+  position: absolute;
+  top: 386px;
+  left: 200px;
+}
+
+.mainilust .clouds img:nth-child(2) {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 386px;
+  left: 300px;
+}
+
+.mainilust .clouds img:nth-child(3) {
+  width: 200px;
+  position: absolute;
+  top: 386px;
+  left: 500px;
+}
+
+.mainilust .clouds img:nth-child(4) {
+  width: 200px;
+  position: absolute;
+  top: 386px;
+  left: 600px;
+}
+
+.mainilust .clouds img:nth-child(5) {
+  width: 200px;
+  position: absolute;
+  top: 386px;
+  left: 650px;
+}
+
+.mainilust .clouds img:nth-child(6) {
+  width: 300px;
+  position: absolute;
+  top: 386px;
+  left: 800px;
+}
+
+.mainilust .clouds img:nth-child(7) {
+  width: 100px;
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+
+.projects {
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  color: #111;
+
+  z-index: 9;
+
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects p {
+  color: #fff;
+}
+
+.projects a {
+  height: 370px;
+  font-family: "Six Caps", sans-serif;
+  font-size: 350px;
+  text-shadow: 5px 5px 5px #fff;
+  transition: 0.2s;
+}
+
+.projects a:hover {
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.background {
+  /* background: seagreen; */
+  width: 100%;
+  height: 100vh;
+  /* position: absolute; */
+}
+
+.deg_wrapper {
+  background: linear-gradient(#53519c 30%, #7a78ca 100%);
+  width: 300%;
+  height: 100vh;
+  transform: rotate(-10deg);
+  position: relative; /* 상대적 위치 지정 */
+  top: -52vh; /* 상대적 위치를 이용하여 위로 이동 */
+  left: -10vw;
+}
+
+/* @media screen and (max-width: 1500px) {
+  .background {
+    bottom: -2800px;
+  }
+} */
+
+.background .about {
+  position: absolute;
+  top: 1500px;
+  color: #fff;
+  width: 100%;
+}
+
+.background .about .about_text_box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.background .about h2 {
+  font-size: 200px;
+  font-family: "Six Caps", sans-serif;
+}
+
+.illustContain {
+  position: relative;
+}
+
+.illustContain img:nth-child(1) {
+  width: 100%;
+}
+
+.illustContain .climber {
+  position: absolute;
+  bottom: -100px;
+  left: 300px;
+}
+
+.illustContain .mount_biker {
+  position: absolute;
+  bottom: 500px;
+  right: 200px;
+}
+
+.skills_title {
+  color: #333;
+  text-align: right;
+  margin-right: 200px;
+}
+
+.mid_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.h4_title {
+  font-size: 50px;
+}
+
+.bottom_container {
+  height: 120vh;
+}
